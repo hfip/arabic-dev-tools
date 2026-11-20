@@ -7,7 +7,7 @@ separate repository with its own tests and no dependencies unless it says otherw
 
 | project | what it does |
 | --- | --- |
-| **[rtl-lint](https://github.com/hfip/rtl-lint)** | Finds `left`/`right` layout assumptions in Swift and storyboards that never mirror in Arabic. Auto-fixes the safe ones, runs in CI as `hfip/rtl-lint@v1`. |
+| **[rtl-lint](https://github.com/hfip/rtl-lint)** | Finds `left`/`right` layout assumptions in Swift and storyboards that never mirror in Arabic. `rtl-lint migrate` writes a plan and opens a branch with one commit per rule group. |
 | **[ArabicPlural](https://github.com/hfip/ArabicPlural)** | The six CLDR plural forms for Swift, including the `n % 100` cases everyone gets wrong. |
 | **[xcstrings-audit](https://github.com/hfip/xcstrings-audit)** | Real coverage for `.xcstrings`, dropped `%@` placeholders, incomplete Arabic plurals, stale keys. |
 | **[xcstrings-merge](https://github.com/hfip/xcstrings-merge)** | Moves legacy `.strings` translations into a String Catalog without overwriting reviewed text. |
