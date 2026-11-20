@@ -50,4 +50,4 @@ subfix -r ~/Movies/Subs                          # the subtitles themselves
 submatch ~/Media/Show ~/Downloads/subs --apply  # then the filenames
 ```
 
-Every repository has a MIT licence, tests, and a README that says what it will not do.
+Each tool is MIT licensed, has tests, and a README that ends with what it will not do.
