@@ -14,6 +14,7 @@ separate repository with its own tests and no dependencies unless it says otherw
 | **[bidi-lab](https://github.com/hfip/bidi-lab)** | Splits a mixed Arabic/Latin line into runs, names the bidi bug, and applies the RLM fix. |
 | **[rtl-previews](https://github.com/hfip/rtl-previews)** | One `#Preview` that renders the screen in English and Arabic side by side. |
 | **[ArabicTextStyle](https://github.com/hfip/ArabicTextStyle)** | Line metrics for Arabic text: a bit more leading, more again when there is tashkeel. |
+| **[arabic-readiness](https://github.com/hfip/arabic-readiness)** | One score and one PR comment for layout, coverage and plurals, wired as a GitHub Action. |
 
 ## Text and subtitles
 
